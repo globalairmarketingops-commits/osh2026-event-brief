@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+<title>EAA AirVenture Oshkosh 2026 — Master Account Brief v2 (Scored) | GlobalAir.com</title>
+<style>
+  :root{
+    --ink:#0A1628; --blue:#007BFF; --paper:#FAF8F4; --steel:#3C4A5E;
+    --line:#E5EAF1; --green:#97CB00; --brass:#C9A961; --white:#fff; --red:#9B1C1C;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;
+       color:var(--ink);background:var(--paper);line-height:1.55;-webkit-font-smoothing:antialiased;}
+  h1,h2,h3,h4{font-family:'Montserrat','Inter',sans-serif;font-weight:700;line-height:1.2;margin:0 0 .4em;}
+  a{color:var(--blue);text-decoration:none;} a:hover{text-decoration:underline;}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 24px;}
+
+  header{background:var(--ink);color:var(--white);padding:34px 0 30px;}
+  header .wrap{display:flex;flex-wrap:wrap;gap:20px;align-items:flex-end;justify-content:space-between;}
+  header img{height:44px;margin-bottom:14px;display:block;}
+  header h1{color:var(--white);font-size:29px;letter-spacing:-.3px;}
+  header .sub{color:#B9C6D8;font-size:15px;margin-top:6px;max-width:660px;}
+  .conf{display:inline-block;background:var(--brass);color:var(--ink);font-weight:700;font-size:11px;
+        letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border-radius:4px;margin-bottom:12px;}
+  .metacard{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:10px;
+            padding:14px 18px;font-size:13px;color:#D5DEEA;min-width:250px;}
+  .metacard .row{display:flex;justify-content:space-between;gap:16px;padding:3px 0;}
+  .metacard b{color:var(--white);}
+
+  nav.toc{position:sticky;top:0;z-index:20;background:var(--white);border-bottom:1px solid var(--line);}
+  nav.toc .wrap{display:flex;flex-wrap:wrap;gap:4px;padding:9px 24px;}
+  nav.toc a{font-size:12.5px;font-weight:600;color:var(--steel);padding:6px 10px;border-radius:6px;}
+  nav.toc a:hover{background:var(--paper);color:var(--ink);text-decoration:none;}
+
+  section{padding:38px 0 6px;}
+  section h2{font-size:22px;padding-bottom:8px;border-bottom:2px solid var(--line);margin-bottom:18px;}
+  section h2 .n{color:var(--blue);font-size:15px;margin-right:8px;}
+  p.lead{font-size:16px;color:var(--steel);max-width:850px;}
+
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+  @media(max-width:860px){.grid2,.grid3{grid-template-columns:1fr;}}
+  .card{background:var(--white);border:1px solid var(--line);border-radius:12px;padding:18px 20px;}
+  .card h3{font-size:15px;}
+  .card .src{font-size:13px;color:var(--steel);}
+
+  /* rubric table */
+  table{width:100%;border-collapse:collapse;font-size:13.5px;background:var(--white);
+        border:1px solid var(--line);border-radius:12px;overflow:hidden;}
+  th,td{padding:9px 11px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;}
+  th{background:var(--ink);color:var(--white);font-family:'Montserrat';font-size:11.5px;
+     letter-spacing:.03em;text-transform:uppercase;}
+  tr:last-child td{border-bottom:none;}
+  tbody tr:hover td{background:#FCFBF8;}
+  td.c,th.c{text-align:center;}
+  .score{font-family:'Montserrat';font-weight:700;}
+  .cutrow td{background:#FBE9E4 !important;color:#7a2318;font-style:italic;}
+  .booth{font-family:'Montserrat';font-weight:700;white-space:nowrap;}
+  .lanetag{font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.02em;padding:1px 5px;border-radius:4px;}
+  .A{background:#E8F6E1;color:#4A6B00;} .B{background:#E4F0FF;color:#0059B8;} .C{background:#FBF2DD;color:#8A6B1E;}
+
+  .tier{display:inline-block;font-family:'Montserrat';font-weight:700;font-size:11px;color:#fff;border-radius:5px;padding:2px 8px;}
+  .t1{background:#12633a;} .t2{background:#20456e;} .cut{background:#8a3320;}
+
+  /* account cards */
+  .acct{background:var(--white);border:1px solid var(--line);border-left:5px solid var(--blue);
+        border-radius:10px;padding:18px 20px;margin-bottom:15px;}
+  .acct.la{border-left-color:var(--green);} .acct.lb{border-left-color:var(--blue);} .acct.lc{border-left-color:var(--brass);}
+  .acct .top{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:baseline;justify-content:space-between;}
+  .acct .top h3{margin:0;font-size:17px;}
+  .acct .top .bk{font-family:'Montserrat';font-weight:700;font-size:13px;color:var(--steel);}
+  .scorepill{font-family:'Montserrat';font-weight:700;font-size:15px;color:#fff;background:var(--ink);
+             border-radius:8px;padding:3px 11px;}
+  .scorepill.hi{background:#12633a;} .scorepill.mid{background:#20456e;}
+  .rubric{display:flex;flex-wrap:wrap;gap:5px;margin:10px 0 12px;}
+  .rubric span{font-size:11px;background:#F1F5FA;border:1px solid var(--line);border-radius:5px;padding:2px 7px;color:var(--steel);}
+  .rubric span b{color:var(--ink);font-family:'Montserrat';}
+  .acct dl{display:grid;grid-template-columns:120px 1fr;gap:6px 14px;margin:0;font-size:13.5px;}
+  .acct dt{font-family:'Montserrat';font-weight:700;font-size:11.5px;color:var(--ink);text-transform:uppercase;letter-spacing:.02em;padding-top:2px;}
+  .acct dd{margin:0;color:#26313f;}
+  .verified{color:#12633a;font-weight:600;} .rolet{color:#8a6b1e;font-style:italic;}
+
+  .callout{background:#F4F8FF;border:1px solid #D5E5FB;border-radius:10px;padding:16px 20px;margin:14px 0;}
+  .callout.warn{background:#FFF7F5;border-color:#F3D3CC;}
+  .callout.good{background:#F2FAEE;border-color:#D6EBC7;}
+  .callout h4{margin:0 0 6px;font-size:14px;}
+  ul.tight{margin:8px 0 0;padding-left:20px;} ul.tight li{margin:4px 0;font-size:14px;}
+  code{background:#eef2f7;padding:1px 6px;border-radius:4px;font-size:12px;}
+  .kpi{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;}
+  @media(max-width:820px){.kpi{grid-template-columns:repeat(2,1fr);}}
+  .kpi .card{text-align:center;} .kpi .big{font-family:'Montserrat';font-weight:700;font-size:25px;color:var(--blue);}
+  .kpi .lbl{font-size:12px;color:var(--steel);}
+  footer{background:var(--ink);color:#9FB0C4;font-size:12.5px;padding:24px 0;margin-top:40px;}
+  footer .wrap{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;}
+  .subhead{font-family:'Montserrat';font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.05em;
+           color:var(--steel);margin:22px 0 10px;padding-bottom:5px;border-bottom:1px dashed var(--line);}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div>
+      <img src="ga-logo-white.png" alt="GlobalAir.com">
+      <span class="conf">Confidential — Internal Account Strategy · v2 (Scored &amp; Audited)</span>
+      <h1>EAA AirVenture Oshkosh 2026<br>Master Account Brief</h1>
+      <p class="sub">Top 20 target accounts, selected by a weighted fit rubric and a per-account company +
+      decision-maker audit. Not eyeballed — every account is scored /100 and researched to a named contact,
+      with sourcing discipline throughout.</p>
+    </div>
+    <div class="metacard">
+      <div class="row"><span>Event</span><b>EAA AirVenture 2026</b></div>
+      <div class="row"><span>Dates</span><b>Jul 20–26, 2026</b></div>
+      <div class="row"><span>Venue</span><b>Wittman Regional, Oshkosh WI</b></div>
+      <div class="row"><span>GlobalAir booth</span><b>#3066 / #3067</b></div>
+      <div class="row"><span>Universe screened</span><b>1,382 exhibitors</b></div>
+      <div class="row"><span>Version</span><b>v2 — 2026-07-01</b></div>
+    </div>
+  </div>
+</header>
+
+<nav class="toc">
+  <div class="wrap">
+    <a href="#method">Method</a>
+    <a href="#rubric">Rubric</a>
+    <a href="#ranking">Scored ranking</a>
+    <a href="#t1">Tier 1 accounts</a>
+    <a href="#t2">Tier 2 accounts</a>
+    <a href="#comp">Competitors</a>
+    <a href="#bench">Below the line</a>
+    <a href="#approach">Floor approach</a>
+    <a href="#metrics">Metrics</a>
+    <a href="#prov">Method &amp; sources</a>
+  </div>
+</nav>
+
+<section id="method">
+  <div class="wrap">
+    <h2><span class="n">01</span>How this list was built</h2>
+    <p class="lead">v1 of this brief was an honest smart-guess — 20 recognizable names filtered by category. v2 replaces
+    judgment with a repeatable method. Three steps:</p>
+    <div class="grid3" style="margin-top:16px">
+      <div class="card">
+        <h3>1 · Comprehensive screen</h3>
+        <p class="src">Pulled the complete verified exhibitor feed (1,382 companies, real booths) and screened
+        <b>every</b> monetizable category — not just brands we recognized. That surfaced fits recognition missed:
+        <b>AirFleet Capital, SkyWatch, Wings Insurance, American Bonanza Society.</b></p>
+      </div>
+      <div class="card">
+        <h3>2 · Weighted rubric</h3>
+        <p class="src">Every candidate scored /100 on six GlobalAir-specific dimensions (below), weighted toward
+        audience overlap and monetization fit. Same rubric, every account — so the ranking is comparable, not
+        vibes.</p>
+      </div>
+      <div class="card">
+        <h3>3 · Company + individual audit</h3>
+        <p class="src">Each finalist researched as a <b>company</b> (marketing posture, gaps we fill, leverage) and
+        as <b>individuals</b> (the real decision-maker, sourced &amp; cited). Named contacts are labeled
+        <span class="verified">verified</span> or <span class="rolet">role target</span> — never invented.</p>
+      </div>
+    </div>
+    <div class="callout warn" style="margin-top:18px">
+      <h4>What the rigor changed vs v1</h4>
+      <ul class="tight">
+        <li><b>FLYING Magazine → reclassified as a competitor.</b> Its owner, Firecrown Media, owns
+        <b>AircraftForSale.com and AvBuyer</b> — a direct marketplace rival. Moved to competitive intel, not targets.</li>
+        <li><b>Sporty's dropped out of the 20.</b> The audit found it runs its own competing media network
+        (Air Facts, iPad Pilot News) — a conflicted advertiser, so it scores 69 and sits below the line.</li>
+        <li><b>Four missed accounts scored in:</b> AirFleet Capital, SkyWatch, Wings Insurance, American Bonanza Society.</li>
+        <li><b>Dropped from v1's 20:</b> Sporty's, Van's, Piper, Shell, AssuredPartners — outscored on the rubric.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="rubric">
+  <div class="wrap">
+    <h2><span class="n">02</span>The fit rubric (/100)</h2>
+    <p class="lead">Each dimension scored 1–5, multiplied by its weight. Weights load toward what actually makes
+    GlobalAir.com money: audience overlap and monetization fit.</p>
+    <table style="margin-top:14px">
+      <thead><tr><th>#</th><th>Dimension</th><th class="c">Weight</th><th class="c">Max</th><th>A "5" looks like</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td><b>Audience Overlap</b></td><td class="c">×5</td><td class="c">25</td><td>Their customer <em>is</em> our user — GA pilots / buyers / owners / FBOs</td></tr>
+        <tr><td>2</td><td><b>Buy-Moment Timing</b></td><td class="c">×3</td><td class="c">15</td><td>We reach their prospect at the purchase moment (finance, insurance, avionics, headset)</td></tr>
+        <tr><td>3</td><td><b>Monetization Fit &amp; Spend</b></td><td class="c">×4</td><td class="c">20</td><td>Has budget + a product that fits display / sponsored / email / ARC</td></tr>
+        <tr><td>4</td><td><b>Data / Partnership Value</b></td><td class="c">×3</td><td class="c">15</td><td>Holds flight / ops / avionics / fuel data that complements our buyer-intent</td></tr>
+        <tr><td>5</td><td><b>Strategic &amp; Editorial Leverage</b></td><td class="c">×2</td><td class="c">10</td><td>Newsworthy story, ARC tie-in, existing relationship, or edge vs Controller</td></tr>
+        <tr><td>6</td><td><b>Winnability / Access</b></td><td class="c">×3</td><td class="c">15</td><td>Reachable decision-maker, nimble org, likely to say yes</td></tr>
+      </tbody>
+    </table>
+    <p class="src" style="margin-top:10px"><b>Tiers:</b> <span class="tier t1">T1</span> ≥ 80 &nbsp; <span class="tier t2">T2</span> 65–79 &nbsp; <span class="tier cut">Cut</span> &lt; 65 (below the top-20 line here).</p>
+  </div>
+</section>
+
+<section id="ranking">
+  <div class="wrap">
+    <h2><span class="n">03</span>Scored ranking — all candidates</h2>
+    <p class="lead">24 qualified accounts scored. The top 20 make the target list; 4 fall below the line (shown, with
+    reason). FLYING/Firecrown is excluded as a competitor (see §competitors).</p>
+    <div style="overflow-x:auto;margin-top:14px">
+    <table>
+      <thead><tr>
+        <th>#</th><th>Account</th><th class="c">Booth</th><th class="c">Lane</th>
+        <th class="c">Aud.<br>×5</th><th class="c">Buy<br>×3</th><th class="c">Mon.<br>×4</th>
+        <th class="c">Data<br>×3</th><th class="c">Lev.<br>×2</th><th class="c">Win<br>×3</th>
+        <th class="c">Score</th><th class="c">Tier</th>
+      </tr></thead>
+      <tbody>
+        <tr><td>1</td><td><b>SkyWatch</b> (insurtech)</td><td class="booth c">#4081</td><td class="c"><span class="lanetag C">C</span></td><td class="c">25</td><td class="c">15</td><td class="c">16</td><td class="c">15</td><td class="c">8</td><td class="c">15</td><td class="c score">94</td><td class="c"><span class="tier t1">T1</span></td></tr>
+        <tr><td>2</td><td><b>Avemco Insurance</b></td><td class="booth c">#1158</td><td class="c"><span class="lanetag C">C</span></td><td class="c">25</td><td class="c">15</td><td class="c">20</td><td class="c">12</td><td class="c">6</td><td class="c">15</td><td class="c score">93</td><td class="c"><span class="tier t1">T1</span></td></tr>
+        <tr><td>3</td><td><b>AirFleet Capital</b> (finance)</td><td class="booth c">#1144</td><td class="c"><span class="lanetag C">C</span></td><td class="c">25</td><td class="c">15</td><td class="c">16</td><td class="c">12</td><td class="c">8</td><td class="c">15</td><td class="c score">91</td><td class="c"><span class="tier t1">T1</span></td></tr>
+        <tr><td>4</td><td><b>Lightspeed Aviation</b></td><td class="booth c">#259</td><td class="c"><span class="lanetag B">B</span></td><td class="c">25</td><td class="c">15</td><td class="c">20</td><td class="c">9</td><td class="c">6</td><td class="c">15</td><td class="c score">90</td><td class="c"><span class="tier t1">T1</span></td></tr>
+        <tr><td>5</td><td><b>Hartzell Propeller</b></td><td class="booth c">#289</td><td class="c"><span class="lanetag B">B</span></td><td class="c">25</td><td class="c">12</td><td class="c">16</td><td class="c">12</td><td class="c">10</td><td class="c">15</td><td class="c score">90</td><td class="c"><span class="tier t1">T1</span></td></tr>
+        <tr><td>6</td><td><b>Aircraft Spruce</b></td><td class="booth c">#476</td><td class="c"><span class="lanetag B">B</span></td><td class="c">25</td><td class="c">12</td><td class="c">20</td><td class="c">12</td><td class="c">6</td><td class="c">15</td><td class="c score">90</td><td class="c"><span class="tier t1">T1</span></td></tr>
+        <tr><td>7</td><td><b>Continental Aerospace</b></td><td class="booth c">#229</td><td class="c"><span class="lanetag B">B</span></td><td class="c">25</td><td class="c">15</td><td class="c">16</td><td class="c">12</td><td class="c">8</td><td class="c">12</td><td class="c score">88</td><td class="c"><span class="tier t1">T1</span></td></tr>
+        <tr><td>8</td><td><b>Jeppesen ForeFlight</b></td><td class="booth c">#443</td><td class="c"><span class="lanetag A">A</span></td><td class="c">25</td><td class="c">12</td><td class="c">16</td><td class="c">15</td><td class="c">8</td><td class="c">9</td><td class="c score">85</td><td class="c"><span class="tier t1">T1</span></td></tr>
+        <tr><td>9</td><td><b>Wings Insurance</b></td><td class="booth c">#207</td><td class="c"><span class="lanetag C">C</span></td><td class="c">25</td><td class="c">12</td><td class="c">12</td><td class="c">12</td><td class="c">8</td><td class="c">15</td><td class="c score">84</td><td class="c"><span class="tier t1">T1</span></td></tr>
+        <tr><td>10</td><td><b>American Bonanza Society</b></td><td class="booth c">#334</td><td class="c"><span class="lanetag B">B</span></td><td class="c">25</td><td class="c">12</td><td class="c">8</td><td class="c">15</td><td class="c">8</td><td class="c">15</td><td class="c score">83</td><td class="c"><span class="tier t1">T1</span></td></tr>
+        <tr><td>11</td><td><b>AOPA</b></td><td class="booth c">#463</td><td class="c"><span class="lanetag B">B</span></td><td class="c">25</td><td class="c">9</td><td class="c">16</td><td class="c">12</td><td class="c">8</td><td class="c">12</td><td class="c score">82</td><td class="c"><span class="tier t1">T1</span></td></tr>
+        <tr><td>12</td><td><b>Cirrus Aircraft</b></td><td class="booth c">#183</td><td class="c"><span class="lanetag B">B</span></td><td class="c">25</td><td class="c">12</td><td class="c">12</td><td class="c">15</td><td class="c">8</td><td class="c">9</td><td class="c score">81</td><td class="c"><span class="tier t1">T1</span></td></tr>
+        <tr><td>13</td><td><b>Lycoming Engines</b></td><td class="booth c">#277</td><td class="c"><span class="lanetag B">B</span></td><td class="c">25</td><td class="c">12</td><td class="c">16</td><td class="c">12</td><td class="c">6</td><td class="c">9</td><td class="c score">80</td><td class="c"><span class="tier t1">T1</span></td></tr>
+        <tr><td>14</td><td><b>uAvionix</b></td><td class="booth c">#3047</td><td class="c"><span class="lanetag A">A</span></td><td class="c">20</td><td class="c">12</td><td class="c">12</td><td class="c">12</td><td class="c">8</td><td class="c">15</td><td class="c score">79</td><td class="c"><span class="tier t2">T2</span></td></tr>
+        <tr><td>15</td><td><b>Dynon Avionics</b></td><td class="booth c">#496</td><td class="c"><span class="lanetag B">B</span></td><td class="c">20</td><td class="c">12</td><td class="c">16</td><td class="c">12</td><td class="c">6</td><td class="c">12</td><td class="c score">78</td><td class="c"><span class="tier t2">T2</span></td></tr>
+        <tr><td>16</td><td><b>Phillips 66 Aviation</b></td><td class="booth c">#430</td><td class="c"><span class="lanetag C">C</span></td><td class="c">20</td><td class="c">9</td><td class="c">20</td><td class="c">12</td><td class="c">8</td><td class="c">9</td><td class="c score">78</td><td class="c"><span class="tier t2">T2</span></td></tr>
+        <tr><td>17</td><td><b>Swift Fuels</b></td><td class="booth c">#455</td><td class="c"><span class="lanetag C">C</span></td><td class="c">20</td><td class="c">9</td><td class="c">12</td><td class="c">12</td><td class="c">10</td><td class="c">15</td><td class="c score">78</td><td class="c"><span class="tier t2">T2</span></td></tr>
+        <tr><td>18</td><td><b>Garmin</b></td><td class="booth c">#347</td><td class="c"><span class="lanetag A">A</span></td><td class="c">25</td><td class="c">9</td><td class="c">16</td><td class="c">15</td><td class="c">6</td><td class="c">6</td><td class="c score">77</td><td class="c"><span class="tier t2">T2</span></td></tr>
+        <tr><td>19</td><td><b>Avidyne</b></td><td class="booth c">#3130A</td><td class="c"><span class="lanetag B">B</span></td><td class="c">20</td><td class="c">12</td><td class="c">16</td><td class="c">12</td><td class="c">6</td><td class="c">9</td><td class="c score">75</td><td class="c"><span class="tier t2">T2</span></td></tr>
+        <tr><td>20</td><td><b>Textron Aviation</b></td><td class="booth c">#78</td><td class="c"><span class="lanetag B">B</span></td><td class="c">20</td><td class="c">12</td><td class="c">12</td><td class="c">15</td><td class="c">6</td><td class="c">6</td><td class="c score">71</td><td class="c"><span class="tier t2">T2</span></td></tr>
+        <tr class="cutrow"><td>21</td><td>Sporty's — <em>runs competing media (Air Facts, iPad Pilot News)</em></td><td class="booth c">#260</td><td class="c">B</td><td class="c">20</td><td class="c">12</td><td class="c">12</td><td class="c">12</td><td class="c">4</td><td class="c">9</td><td class="c score">69</td><td class="c">cut</td></tr>
+        <tr class="cutrow"><td>22</td><td>Van's Aircraft — <em>post-Ch.11, thin budget; editorial fit only</em></td><td class="booth c">#604</td><td class="c">B</td><td class="c">20</td><td class="c">12</td><td class="c">8</td><td class="c">9</td><td class="c">8</td><td class="c">9</td><td class="c score">66</td><td class="c">cut</td></tr>
+        <tr class="cutrow"><td>23</td><td>MyGoFlight — <em>small DTC budget, low-consideration gear</em></td><td class="booth c">#1038</td><td class="c">B</td><td class="c">20</td><td class="c">9</td><td class="c">8</td><td class="c">6</td><td class="c">4</td><td class="c">9</td><td class="c score">56</td><td class="c">cut</td></tr>
+        <tr class="cutrow"><td>24</td><td>AIG Aerospace — <em>broker-distributed, no direct buy-moment</em></td><td class="booth c">#3014</td><td class="c">C</td><td class="c">15</td><td class="c">6</td><td class="c">8</td><td class="c">9</td><td class="c">6</td><td class="c">6</td><td class="c score">50</td><td class="c">cut</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p class="src" style="margin-top:8px"><b>Lane key:</b> <span class="lanetag A">A</span> Data partnership · <span class="lanetag B">B</span> Advertiser · <span class="lanetag C">C</span> ARC / Fuel / Insurance / Finance.</p>
+  </div>
+</section>
+
+<section id="t1">
+  <div class="wrap">
+    <h2><span class="n">04</span>Tier 1 accounts (score ≥ 80) — build the plan around these</h2>
+
+    <div class="acct lc">
+      <div class="top"><h3>1 · SkyWatch</h3><span class="bk">Booth #4081 · Aviation insurtech</span><span class="scorepill hi">94</span></div>
+      <div class="rubric"><span>Aud <b>25</b></span><span>Buy <b>15</b></span><span>Mon <b>16</b></span><span>Data <b>15</b></span><span>Lev <b>8</b></span><span>Win <b>15</b></span></div>
+      <dl>
+        <dt>Company</dt><dd>Digital-native aircraft-owner insurance (underwritten by Global Aerospace); end-to-end online quote-and-bind, telematics roots. VC-backed (Verizon Ventures, F2 Capital).</dd>
+        <dt>Gaps we fill</dt><dd>Newest entrant in owner insurance = low brand awareness. They need qualified in-market traffic and credibility — exactly the audience GlobalAir owns.</dd>
+        <dt>Leverage</dt><dd>Best quote-tool integration candidate on the floor: an embedded "instant quote" widget on listing pages fits their bind-online model. Performance/CPA deals suit an insurtech mindset. <b>Fastest-moving target.</b></dd>
+        <dt>Contact</dt><dd><span class="verified">Verified:</span> Tomer Kashi, Co-Founder &amp; CEO. Partnerships/growth lead = <span class="rolet">role target — confirm pre-show.</span></dd>
+        <dt>Floor move</dt><dd>Abby or Casey. Pitch a listing-page instant-quote pilot on a performance basis; small, fast, provable.</dd>
+      </dl>
+    </div>
+
+    <div class="acct lc">
+      <div class="top"><h3>2 · Avemco Insurance</h3><span class="bk">Booth #1158 · Direct GA insurer</span><span class="scorepill hi">93</span></div>
+      <div class="rubric"><span>Aud <b>25</b></span><span>Buy <b>15</b></span><span>Mon <b>20</b></span><span>Data <b>12</b></span><span>Lev <b>6</b></span><span>Win <b>15</b></span></div>
+      <dl>
+        <dt>Company</dt><dd>America's only <em>direct</em> GA insurer (no broker), since 1961; A++ Best; part of Tokio Marine HCC. Already advertises in AOPA Pilot/Flight Training and buys programmatic.</dd>
+        <dt>Gaps we fill</dt><dd>Direct model means they own the customer but must generate their own demand — GlobalAir's buyer-intent audience is pure top-of-funnel fuel a broker channel can't give them.</dd>
+        <dt>Leverage</dt><dd>"Just bought? Insure it" AvBlast unit + buy-moment placement on listing pages; they already have online quoting to receive the click. The middleman-free angle is sponsored-content ready.</dd>
+        <dt>Contact</dt><dd><span class="verified">Verified:</span> Marci Veronie, SVP Sales &amp; Marketing (primary); Michael Donovan, President.</dd>
+        <dt>Floor move</dt><dd>Abby leads. Highest-confidence win in the cohort — proven media buyer with a demand gap.</dd>
+      </dl>
+    </div>
+
+    <div class="acct lc">
+      <div class="top"><h3>3 · AirFleet Capital</h3><span class="bk">Booth #1144 · Aircraft financing</span><span class="scorepill hi">91</span></div>
+      <div class="rubric"><span>Aud <b>25</b></span><span>Buy <b>15</b></span><span>Mon <b>16</b></span><span>Data <b>12</b></span><span>Lev <b>8</b></span><span>Win <b>15</b></span></div>
+      <dl>
+        <dt>Company</dt><dd>One of the largest US GA aircraft lenders (since 1994; 10,000+ loans). Owner-operator focus, in-house underwriting. <em>The account recognition-screening missed entirely.</em></dd>
+        <dt>Gaps we fill</dt><dd>No presence at the buyer's decision moment on a for-sale marketplace; reliant on trade shows + print. No data-driven digital demand-gen — GlobalAir is the missing channel.</dd>
+        <dt>Leverage</dt><dd>Cleanest buy-moment fit of any account: buyers need a loan exactly while browsing for-sale listings. A "finance this aircraft" rate widget + AvBlast sponsorship. No incumbent marketplace partner.</dd>
+        <dt>Contact</dt><dd><span class="verified">Verified:</span> Jim Blessing, President; Steve Smestad, Founder. Marketing lead = <span class="rolet">role target.</span></dd>
+        <dt>Floor move</dt><dd>Casey/Abby. Already an Oshkosh exhibitor and self-identified advertiser — open with the listing-page finance widget.</dd>
+      </dl>
+    </div>
+
+    <div class="acct lb">
+      <div class="top"><h3>4 · Lightspeed Aviation</h3><span class="bk">Booth #259 · Premium headsets</span><span class="scorepill hi">90</span></div>
+      <div class="rubric"><span>Aud <b>25</b></span><span>Buy <b>15</b></span><span>Mon <b>20</b></span><span>Data <b>9</b></span><span>Lev <b>6</b></span><span>Win <b>15</b></span></div>
+      <dl>
+        <dt>Company</dt><dd>Premium aviation-only headset brand (Zulu/Delta Zero). Already an active media/sponsorship buyer (airshow team, aviation podcasts) with a real marketing org at EVP level.</dd>
+        <dt>Gaps we fill</dt><dd>They lean on brand-awareness sponsorships; GlobalAir offers a high-intent, in-market surface at the transaction — a purchase context their airshow/podcast spend doesn't hit.</dd>
+        <dt>Leverage</dt><dd>Best new-owner buy-moment on the list — a headset is a near-universal first upgrade after a purchase, and we sit at that purchase. Display + AvBlast maps to their upgrade funnel.</dd>
+        <dt>Contact</dt><dd><span class="verified">Verified:</span> Teresa De Mers, EVP Marketing &amp; Corp Development (lead with her); Eric Landry, Sr Director of Marketing (working level).</dd>
+        <dt>Floor move</dt><dd>Casey. Cleanest advertiser conversation on the floor — active buyer, named owner, obvious fit.</dd>
+      </dl>
+    </div>
+
+    <div class="acct lb">
+      <div class="top"><h3>5 · Hartzell Propeller</h3><span class="bk">Booth #289 · Propellers / engine tech</span><span class="scorepill hi">90</span></div>
+      <div class="rubric"><span>Aud <b>25</b></span><span>Buy <b>12</b></span><span>Mon <b>16</b></span><span>Data <b>12</b></span><span>Lev <b>10</b></span><span>Win <b>15</b></span></div>
+      <dl>
+        <dt>Company</dt><dd>Prop OEM aggressively expanding aftermarket/upgrade reach — Apr 2026 "Top Prop" program added 150+ models with an online prop-finder, framed as owner conversion.</dd>
+        <dt>Gaps we fill</dt><dd>The Top Prop finder is a strong conversion tool that needs <em>traffic</em> — qualified owners who don't yet know they can upgrade. Our hub + AvBlast drive discovery at the retrofit decision.</dd>
+        <dt>Leverage</dt><dd><b>Warmest account on the list:</b> GlobalAir already republishes Hartzell's Top Prop news (existing editorial touchpoint). "Is your prop upgradeable?" is a ready-made sponsored campaign.</dd>
+        <dt>Contact</dt><dd><span class="verified">Verified:</span> JJ Frigge, President. Marketing/brand lead = <span class="rolet">role target.</span></dd>
+        <dt>Floor move</dt><dd>Casey/Ian. Reference the existing content relationship; propose a Top Prop sponsored series.</dd>
+      </dl>
+    </div>
+
+    <div class="acct lb">
+      <div class="top"><h3>6 · Aircraft Spruce &amp; Specialty</h3><span class="bk">Booth #476 · Parts / retail</span><span class="scorepill hi">90</span></div>
+      <div class="rubric"><span>Aud <b>25</b></span><span>Buy <b>12</b></span><span>Mon <b>20</b></span><span>Data <b>12</b></span><span>Lev <b>6</b></span><span>Win <b>15</b></span></div>
+      <dl>
+        <dt>Company</dt><dd>Largest GA parts/supplies catalog retailer (100,000+ products, ~8–10 DCs). Family-run; marketing-savvy; already an AOPA partner and aviation-media buyer.</dd>
+        <dt>Gaps we fill</dt><dd>They own their catalog + email list but lack a large <em>editorial</em> vehicle to reach active buyers mid-journey. AvBlast + the hub = net-new reach, not cannibalized list.</dd>
+        <dt>Leverage</dt><dd>New-owner outfitting buy-moment (a closed listing = a fresh gear customer); the annual catalog drop = a natural AvBlast sponsorship burst.</dd>
+        <dt>Contact</dt><dd><span class="verified">Verified:</span> Rob Irwin, VP Marketing (family principal — lead here); Jim Irwin, President.</dd>
+        <dt>Floor move</dt><dd>Casey. Incremental-reach + new-owner-outfitting story; propose catalog-season AvBlast.</dd>
+      </dl>
+    </div>
+
+    <div class="acct lb">
+      <div class="top"><h3>7 · Continental Aerospace</h3><span class="bk">Booth #229 · Piston engines</span><span class="scorepill hi">88</span></div>
+      <div class="rubric"><span>Aud <b>25</b></span><span>Buy <b>15</b></span><span>Mon <b>16</b></span><span>Data <b>12</b></span><span>Lev <b>8</b></span><span>Win <b>12</b></span></div>
+      <dl>
+        <dt>Company</dt><dd>Piston + diesel engine OEM. <b>Being acquired by Arcline (~$535M, announced June 2026)</b> — new PE ownership typically frees/reorients marketing spend. Running the "FastTrack" overhaul campaign.</dd>
+        <dt>Gaps we fill</dt><dd>Pushes overhaul messaging but has no owned owner-audience channel like AvBlast; reach depends on trade PR + distributors. We give direct access to piston owners at the overhaul moment.</dd>
+        <dt>Leverage</dt><dd>Three campaignable stories (FastTrack, CD-300 STC, UL100E unleaded testing) + a fresh-budget window under new ownership.</dd>
+        <dt>Contact</dt><dd><span class="verified">Verified:</span> Oliver Leber, VP Global Sales &amp; Applications Eng. Marketing/comms lead = <span class="rolet">role target</span> (CEO status unconfirmed through the Arcline close).</dd>
+        <dt>Floor move</dt><dd>Casey. Time the pitch to the ownership transition; overhaul buy-moment content.</dd>
+      </dl>
+    </div>
+
+    <div class="acct la">
+      <div class="top"><h3>8 · Jeppesen ForeFlight</h3><span class="bk">Booth #443 · EFB / flight data</span><span class="scorepill hi">85</span></div>
+      <div class="rubric"><span>Aud <b>25</b></span><span>Buy <b>12</b></span><span>Mon <b>16</b></span><span>Data <b>15</b></span><span>Lev <b>8</b></span><span>Win <b>9</b></span></div>
+      <dl>
+        <dt>Company</dt><dd>Near-ubiquitous EFB/flight-planning platform (250,000+ pilots), spun out of Boeing to Thoma Bravo (~$10.55B) as standalone Jeppesen ForeFlight. Growth mandate + rebrand.</dd>
+        <dt>Gaps we fill</dt><dd>They own subscribers; we own the pre-purchase buyer. New aircraft owners are prime EFB-conversion targets we reach at acquisition.</dd>
+        <dt>Leverage</dt><dd>The anchor <b>data-flywheel</b> partner — flight-ops data × our buyer intent. Partnership-first culture (public "strategic alliances") = warm posture for a data/media deal, not a pure ad buy.</dd>
+        <dt>Contact</dt><dd><span class="verified">Verified:</span> Scott Reagan, Director of Strategic Alliances (strongest entry); Kayla Floyd, PR.</dd>
+        <dt>Floor move</dt><dd>Casey/Clay, peer-level, data-first. No commercial ask on the floor — set a post-show call.</dd>
+      </dl>
+    </div>
+
+    <div class="acct lc">
+      <div class="top"><h3>9 · Wings Insurance</h3><span class="bk">Booth #207 · Aviation insurance broker</span><span class="scorepill hi">84</span></div>
+      <div class="rubric"><span>Aud <b>25</b></span><span>Buy <b>12</b></span><span>Mon <b>12</b></span><span>Data <b>12</b></span><span>Lev <b>8</b></span><span>Win <b>15</b></span></div>
+      <dl>
+        <dt>Company</dt><dd>One of the largest US aviation insurance brokers; official broker of Cirrus + the Cirrus Owners &amp; Pilots Association. Modernizing (paperless quick-quote, embedded/OEM distribution).</dd>
+        <dt>Gaps we fill</dt><dd>Brokers live on lead flow; they lack a large owned buyer audience. Our buyer-intent audience is directly monetizable as leads.</dd>
+        <dt>Leverage</dt><dd>Lead-gen placement + "get a quote from a pilot broker" (fits their human-touch model); co-branded content off the Cirrus/COPA relationship.</dd>
+        <dt>Contact</dt><dd><span class="verified">Verified:</span> Ryan Konrath, Director of Business Development (primary); Steve Bruss, President/CEO.</dd>
+        <dt>Floor move</dt><dd>Abby. Lead-gen pilot on listing pages; sequence after Avemco/SkyWatch to avoid a bidding war.</dd>
+      </dl>
+    </div>
+
+    <div class="acct lb">
+      <div class="top"><h3>10 · American Bonanza Society</h3><span class="bk">Booth #334 · Type club (Bonanza/Baron)</span><span class="scorepill hi">83</span></div>
+      <div class="rubric"><span>Aud <b>25</b></span><span>Buy <b>12</b></span><span>Mon <b>8</b></span><span>Data <b>15</b></span><span>Lev <b>8</b></span><span>Win <b>15</b></span></div>
+      <dl>
+        <dt>Company</dt><dd>Type club for 9,000+ Beechcraft Bonanza/Baron owners — a concentrated, affluent slice of GlobalAir's <em>named</em> core buyer persona. <em>Another account recognition missed.</em></dd>
+        <dt>Gaps we fill</dt><dd>Limited digital-marketplace/data infrastructure. We offer marketplace reach for members selling Bonanzas, fuel/FBO data as a member benefit, and email/editorial reach that dwarfs theirs.</dd>
+        <dt>Leverage</dt><dd>Member-benefit partnership (featured Bonanza inventory), content swaps (their technical content ↔ our market/pricing data), convention sponsorship. Low competition, high mutual value.</dd>
+        <dt>Contact</dt><dd><span class="verified">Verified:</span> Lauren Bayless, Executive Director (partnership decisions); Jenna Reid, Display Advertising Manager (ad buys, direct email/phone on file).</dd>
+        <dt>Floor move</dt><dd>Casey/Abby. Fast, high-fit make/model deal — propose a member-benefit + content swap.</dd>
+      </dl>
+    </div>
+
+    <div class="acct lb">
+      <div class="top"><h3>11 · AOPA</h3><span class="bk">Booth #463 · Association / media / insurance / finance</span><span class="scorepill hi">82</span></div>
+      <div class="rubric"><span>Aud <b>25</b></span><span>Buy <b>9</b></span><span>Mon <b>16</b></span><span>Data <b>12</b></span><span>Lev <b>8</b></span><span>Win <b>12</b></span></div>
+      <dl>
+        <dt>Company</dt><dd>Largest aviation member body (300k+); media reaches 780k monthly, 50% own aircraft, avg net worth $1.6M. Runs a formal Corporate Partnership program + sells insurance/finance products.</dd>
+        <dt>Gaps we fill / mutual</dt><dd>AOPA is an association, not a marketplace or fuel/FBO-data source — our ARC + marketplace are complementary. Data/content swaps feed member value without cannibalizing either side.</dd>
+        <dt>Leverage</dt><dd>Co-marketing via ePilot sponsorship or native; syndicate our fuel data/editorial into AOPA channels. Their insurance/finance lines are an overlap to navigate, not lead with. Partner, not rival.</dd>
+        <dt>Contact</dt><dd><span class="rolet">Role target:</span> AOPA advertising/Corporate Partnership lead (request a named rep pre-show). <b>Note leadership transition</b> — acting co-presidents Jill Baker &amp; Katie Pribyl; permanent CEO search underway.</dd>
+        <dt>Floor move</dt><dd>Casey. Relationship + data-swap framing; get the named partnerships rep.</dd>
+      </dl>
+    </div>
+
+    <div class="acct lb">
+      <div class="top"><h3>12 · Cirrus Aircraft</h3><span class="bk">Booth #183 · Piston OEM</span><span class="scorepill hi">81</span></div>
+      <div class="rubric"><span>Aud <b>25</b></span><span>Buy <b>12</b></span><span>Mon <b>12</b></span><span>Data <b>15</b></span><span>Lev <b>8</b></span><span>Win <b>9</b></span></div>
+      <dl>
+        <dt>Company</dt><dd>Best-selling piston OEM (691 SR + record 106 Vision Jets in 2025). SR buyers = GlobalAir's exact P1 core; live SR22 inventory already on our marketplace.</dd>
+        <dt>Gaps we fill</dt><dd>Editorial reach to owner-pilots outside Cirrus's own funnel; buyer-intent audience for their Authorized Pre-Owned Network.</dd>
+        <dt>Leverage</dt><dd>Realistic path is co-marketing + used-SR data, <em>not</em> display (they guard brand + own their funnel). The SR22 resale signal is the wedge.</dd>
+        <dt>Contact</dt><dd><span class="verified">Verified:</span> Zean Nielsen, CEO; Todd Simmons, President–Customer Experience. Brand/Digital Marketing VP = <span class="rolet">role target.</span></dd>
+        <dt>Floor move</dt><dd>Casey. Credibility conversation; plant the used-SR data idea, set a marketing follow-up.</dd>
+      </dl>
+    </div>
+
+    <div class="acct lb">
+      <div class="top"><h3>13 · Lycoming Engines</h3><span class="bk">Booth #277 · Piston engines</span><span class="scorepill hi">80</span></div>
+      <div class="rubric"><span>Aud <b>25</b></span><span>Buy <b>12</b></span><span>Mon <b>16</b></span><span>Data <b>12</b></span><span>Lev <b>6</b></span><span>Win <b>9</b></span></div>
+      <dl>
+        <dt>Company</dt><dd>The only US-owned GA piston engine maker (Textron/Avco). The most content-mature of the engine trio — /fuels unleaded hub, loyalty program, creator partnerships (hosted Flight Chops).</dd>
+        <dt>Gaps we fill</dt><dd>Educates well but distributes via its own site + influencers; lacks a neutral high-traffic third-party placement at scale. AvBlast extends that owner education to an audience we already own.</dd>
+        <dt>Leverage</dt><dd>Unleaded transition (Swift 100R AML now covers Lycoming engines) + the iE2 launch = sponsored-content anchors.</dd>
+        <dt>Contact</dt><dd><span class="verified">Verified:</span> Shannon Massey, SVP &amp; GM; Michael Kraft, VP Engineering. Marketing head = <span class="rolet">role target.</span></dd>
+        <dt>Floor move</dt><dd>Casey. Must show incremental reach beyond their owned channels — lead with the unleaded franchise.</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section id="t2">
+  <div class="wrap">
+    <h2><span class="n">05</span>Tier 2 accounts (65–79) — strong, work after T1</h2>
+
+    <div class="acct la">
+      <div class="top"><h3>14 · uAvionix</h3><span class="bk">Booth #3047 · ADS-B / surveillance</span><span class="scorepill mid">79</span></div>
+      <div class="rubric"><span>Aud <b>20</b></span><span>Buy <b>12</b></span><span>Mon <b>12</b></span><span>Data <b>12</b></span><span>Lev <b>8</b></span><span>Win <b>15</b></span></div>
+      <dl>
+        <dt>Why</dt><dd>Lean, venture-backed ADS-B disruptor targeting affordable panel upgrades — GlobalAir's core buyer. A challenger that <em>needs</em> GA reach at scale, which is where our audience matters most.</dd>
+        <dt>Gaps / leverage</dt><dd>Awareness + reach a lean team can't buy at Garmin scale; value-vs-Garmin cost story is natural sponsored content; ADS-B/upgrade timing. <b>Highest winnability in the data lane.</b></dd>
+        <dt>Contact</dt><dd><span class="verified">Verified:</span> Brit Wanick, VP Marketing (clear decision owner); Christian Ramsey, President/GM.</dd>
+        <dt>Floor move</dt><dd>Combine with the Controller competitive walk-by — #3047 sits near Controller's #3151.</dd>
+      </dl>
+    </div>
+
+    <div class="acct lb">
+      <div class="top"><h3>15 · Dynon Avionics</h3><span class="bk">Booth #496 · Experimental + certified avionics</span><span class="scorepill mid">78</span></div>
+      <div class="rubric"><span>Aud <b>20</b></span><span>Buy <b>12</b></span><span>Mon <b>16</b></span><span>Data <b>12</b></span><span>Lev <b>6</b></span><span>Win <b>12</b></span></div>
+      <dl>
+        <dt>Why</dt><dd>Dominant in experimental avionics, now pushing "Dynon Certified" into owner-flown Cessna/Bonanza — exactly our core audience, a channel where they're newer. Proven aviation-media buyer; post-Trig launch story to distribute.</dd>
+        <dt>Contact</dt><dd><span class="verified">Verified:</span> Michael Schofield, Director of Marketing (confirm); Brad Thurow, President; Robert Hamilton, COO.</dd>
+        <dt>Floor move</dt><dd>Casey. Advertiser-first around make/model STC expansions; float a smaller data angle.</dd>
+      </dl>
+    </div>
+
+    <div class="acct lc">
+      <div class="top"><h3>16 · Phillips 66 Aviation</h3><span class="bk">Booth #430 · Fuel / FBO network</span><span class="scorepill mid">78</span></div>
+      <div class="rubric"><span>Aud <b>20</b></span><span>Buy <b>9</b></span><span>Mon <b>20</b></span><span>Data <b>12</b></span><span>Lev <b>8</b></span><span>Win <b>9</b></span></div>
+      <dl>
+        <dt>Why</dt><dd>~900 branded FBOs intersecting directly with our fuel-price data + ARC. Very high budget, but a mature in-house marketing org — so we must sell a <em>differentiated</em> ARC/fuel-data placement, not commodity display.</dd>
+        <dt>Gaps / leverage</dt><dd>We own the neutral fuel-price + airport-directory layer where pilots choose where to fuel — P66 branding/WingPoints callouts on ARC FBO profiles reach the fuel-stop decision their own channels can't.</dd>
+        <dt>Contact</dt><dd><span class="verified">Verified:</span> Meghan du Plessis, Director, Aviation Brand Marketing.</dd>
+        <dt>Floor move</dt><dd>Abby. Lead with the fuel-price-data hook; route to branded-network marketing.</dd>
+      </dl>
+    </div>
+
+    <div class="acct lc">
+      <div class="top"><h3>17 · Swift Fuels</h3><span class="bk">Booth #455 · Unleaded avgas</span><span class="scorepill mid">78</span></div>
+      <div class="rubric"><span>Aud <b>20</b></span><span>Buy <b>9</b></span><span>Mon <b>12</b></span><span>Data <b>12</b></span><span>Lev <b>10</b></span><span>Win <b>15</b></span></div>
+      <dl>
+        <dt>Why</dt><dd>Unleaded avgas (UL94 + 100R). The 100LL transition is the single best <b>editorial</b> hook at the show — and <b>GlobalAir already published a Swift 100R article</b> (existing warm relationship).</dd>
+        <dt>Gaps / leverage</dt><dd>They need pilots educated on where to buy unleaded + which engines are approved — our fuel-price data + ARC can flag Swift availability by airport; the hub carries the transition story. Best media-hub (vs pure-ad) fit.</dd>
+        <dt>Contact</dt><dd><span class="verified">Verified:</span> Chris D'Acosta, CEO. Marketing/comms = <span class="rolet">role target.</span></dd>
+        <dt>Floor move</dt><dd>Abby + editorial. <em>Firewall the story from the ad deal</em> — cover the transition on the merits regardless (data-integrity).</dd>
+      </dl>
+    </div>
+
+    <div class="acct la">
+      <div class="top"><h3>18 · Garmin</h3><span class="bk">Booth #347 · Avionics leader</span><span class="scorepill mid">77</span></div>
+      <div class="rubric"><span>Aud <b>25</b></span><span>Buy <b>9</b></span><span>Mon <b>16</b></span><span>Data <b>15</b></span><span>Lev <b>6</b></span><span>Win <b>6</b></span></div>
+      <dl>
+        <dt>Why</dt><dd>Highest ceiling (every persona touches Garmin; richest avionics/ADS-B data) but <b>lowest winnability</b> — a self-sufficient marketing machine that's hard to differentiate for. Scored high on value, low on access.</dd>
+        <dt>Gaps / leverage</dt><dd>The only credible angle is buyer-intent targeting (owners actively shopping = re-avionics trigger) + aviation-pure audience they can't buy on Meta/Google. Lead with intent data + editorial, never a banner.</dd>
+        <dt>Contact</dt><dd><span class="verified">Verified:</span> Steve Lovell, Director Advertising &amp; Sponsorship (plausible media-buy owner); Carl Wolf, VP Aviation Sales &amp; Marketing (owns the lane, senior).</dd>
+        <dt>Floor move</dt><dd>Short, high-signal. Goal = the partnerships contact + a warm intro, not a close.</dd>
+      </dl>
+    </div>
+
+    <div class="acct lb">
+      <div class="top"><h3>19 · Avidyne</h3><span class="bk">Booth #3130A · Certified avionics</span><span class="scorepill mid">75</span></div>
+      <div class="rubric"><span>Aud <b>20</b></span><span>Buy <b>12</b></span><span>Mon <b>16</b></span><span>Data <b>12</b></span><span>Lev <b>6</b></span><span>Win <b>9</b></span></div>
+      <dl>
+        <dt>Why</dt><dd>Certified-avionics maker with a dense 2025 launch pipeline (Vantage 12, SkyTrax 3000) to promote; the IFD/retrofit buyer overlaps precisely with our active piston owners. Culture is PR-centric — lead with buyer-intent audience proof.</dd>
+        <dt>Contact</dt><dd><span class="verified">Verified:</span> Kelly Myers, VP Marketing &amp; CX (confirm); Dan Schwinn, Founder/CEO.</dd>
+        <dt>Floor move</dt><dd>Casey. Anchor to a specific product launch + "why upgrade" mid-funnel content.</dd>
+      </dl>
+    </div>
+
+    <div class="acct lb">
+      <div class="top"><h3>20 · Textron Aviation</h3><span class="bk">Booth #78 · Cessna / Beechcraft</span><span class="scorepill mid">71</span></div>
+      <div class="rubric"><span>Aud <b>20</b></span><span>Buy <b>12</b></span><span>Mon <b>12</b></span><span>Data <b>15</b></span><span>Lev <b>6</b></span><span>Win <b>6</b></span></div>
+      <dl>
+        <dt>Why</dt><dd>Deepest used-fleet/data value on the floor (legacy Cessna/Beech trade constantly in our listings) but the <b>hardest to win</b> — big, process-heavy, and Controller-adjacent (already syndicates used Citations to Controller). Enter via piston/editorial, not jet display.</dd>
+        <dt>Gaps / leverage</dt><dd>Their marketing skews business-jet; the piston/used owner audience is where we're relevant and they're thin. Sponsored content + used-piston data, not a display contract (they run their own marketplace).</dd>
+        <dt>Contact</dt><dd><span class="verified">Verified:</span> Ron Draper, President &amp; CEO. Aftermarket/piston marketing owner = <span class="rolet">role target</span> (note: Rob Scholl left for Bell Jan 2026 — do not route to him).</dd>
+        <dt>Floor move</dt><dd>Casey, only after higher-winnability accounts. Data-led opener; get routed to aftermarket marketing.</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section id="comp">
+  <div class="wrap">
+    <h2><span class="n">06</span>Competitors on the floor — recon, not pitch</h2>
+    <div class="grid2">
+      <div class="card" style="border-left:4px solid var(--red)">
+        <h3>Controller (Sandhills) — #3151 / #3152</h3>
+        <p class="src">Primary marketplace competitor, double booth in the 3100 aisle. Assign one person a daily
+        quiet walk-by: what they demo, booth traffic, data/pricing messaging. File to <code>10d/Competitive_Intel/</code>.
+        Observe — do not engage or disparage.</p>
+      </div>
+      <div class="card" style="border-left:4px solid var(--red)">
+        <h3>FLYING Magazine / Firecrown Media — #2004 <span style="font-size:11px;color:var(--red)">(RECLASSIFIED)</span></h3>
+        <p class="src">Not a partner. Firecrown owns <b>AircraftForSale.com and AvBuyer</b> — a direct marketplace rival —
+        plus FLYING/AVweb/KITPLANES (media-hub rival). Ryan Ewing now leads Firecrown Aviation Group. Treat #2004 as
+        the <b>#1 intel target</b>: study their intent-data ad packaging and marketplace UX. Any co-marketing would
+        feed a rival — keep away from audience-sharing.</p>
+      </div>
+    </div>
+    <div class="callout good" style="margin-top:14px">
+      <h4>The asymmetry still holds</h4>
+      <p style="margin:0">Beyond Controller and Firecrown, <b>no other listings/data marketplace exhibits</b> — no
+      Trade-A-Plane, Barnstormers, JETNET, or AMSTAT. GlobalAir.com is one of only three real media/marketplace
+      operations on the field, and the only one pairing verified buyer-intent with a content engine.</p>
+    </div>
+  </div>
+</section>
+
+<section id="bench">
+  <div class="wrap">
+    <h2><span class="n">07</span>Below the line — scored, not selected</h2>
+    <p class="lead">Shown for transparency: strong-enough to audit, not strong enough to make the 20. Promote from
+    here if a target no-shows.</p>
+    <table style="margin-top:12px">
+      <thead><tr><th>Account</th><th class="c">Booth</th><th class="c">Score</th><th>Why it missed the cut</th></tr></thead>
+      <tbody>
+        <tr><td><b>Sporty's</b></td><td class="booth c">#260</td><td class="c score">69</td><td>Runs its own competing media network (Air Facts, iPad Pilot News, The Active Runway) — a conflicted advertiser. Pursue only as content partnership via John Zimmerman, not an ad buy.</td></tr>
+        <tr><td><b>Van's Aircraft</b></td><td class="booth c">#604</td><td class="c score">66</td><td>Owns the homebuilder audience, but post-Chapter-11 budget is thin. Warmest editorial/story fit (RV-15/MOSAIC), weakest revenue — pursue for content, not spend.</td></tr>
+        <tr><td><b>MyGoFlight</b></td><td class="booth c">#1038</td><td class="c score">56</td><td>Clean audience overlap but small DTC budget and low-consideration gear. Email-sponsorship sizing at most.</td></tr>
+        <tr><td><b>AIG Aerospace</b></td><td class="booth c">#3014</td><td class="c score">50</td><td>Deep pockets but broker-distributed with no direct buy-moment path. Brand/authority sponsor at best, not lead-gen.</td></tr>
+      </tbody>
+    </table>
+    <p class="src" style="margin-top:10px"><b>Also considered, not advanced to full audit:</b> Piper, Shell Aviation, AssuredPartners, BWI Aviation Insurance, Bose, David Clark, Diamond, Daher, Epic, iFly EFB — available if the roster needs reshaping.</p>
+  </div>
+</section>
+
+<section id="approach">
+  <div class="wrap">
+    <h2><span class="n">08</span>Floor approach</h2>
+    <div class="grid2">
+      <div class="card">
+        <h3>Ownership</h3>
+        <ul class="tight">
+          <li><b>Lane C — insurance / finance / fuel</b> (SkyWatch, Avemco, AirFleet, Wings, Phillips 66, Swift): Abby leads, tied to ARC + buy-moment.</li>
+          <li><b>Lane A + big-brand B</b> (ForeFlight, Garmin, Cirrus, Textron, engines): Casey / Clay, peer-level.</li>
+          <li><b>Retail / avionics advertisers</b> (Lightspeed, Aircraft Spruce, Dynon, uAvionix, Avidyne): Casey.</li>
+          <li><b>Warm relationship plays</b> (Hartzell, Swift — existing content; American Bonanza Society): Ian's voice where it helps.</li>
+          <li><b>Competitor recon</b> (Controller #3151, Firecrown #2004): one person, daily, observe only.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Priority order</h3>
+        <ul class="tight">
+          <li><b>Day 1–2 (T1, ≥80):</b> SkyWatch, Avemco, AirFleet, Lightspeed, Hartzell, Aircraft Spruce, Continental, ForeFlight, Wings, ABS, AOPA, Cirrus, Lycoming.</li>
+          <li><b>Day 2–3 (T2):</b> uAvionix, Dynon, Phillips 66, Swift, Garmin, Avidyne, Textron.</li>
+          <li>Log every conversation same-day in CRM: <code>OSH_2026</code> · sub-source <code>abm-target</code> · named contact · next step.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="callout">
+      <h4>The through-line for every conversation</h4>
+      <p style="margin:0"><b>"GlobalAir.com is the only place that knows who's actively buying aircraft, fuel, and
+      airport services — before they buy."</b> Insurance/finance want that timing. Advertisers want that intent.
+      Data partners want that signal. Same asset, three asks.</p>
+    </div>
+  </div>
+</section>
+
+<section id="metrics">
+  <div class="wrap">
+    <h2><span class="n">09</span>Success metrics</h2>
+    <div class="kpi" style="margin-top:8px">
+      <div class="card"><div class="big">13+</div><div class="lbl">of 20 targets engaged on-floor</div></div>
+      <div class="card"><div class="big">6+</div><div class="lbl">post-show meetings booked before leaving Oshkosh</div></div>
+      <div class="card"><div class="big">3+</div><div class="lbl">qualified opportunities (ad / data / partnership)</div></div>
+      <div class="card"><div class="big">2</div><div class="lbl">buy-moment pilots signed (insurance/finance listing units)</div></div>
+    </div>
+    <p class="src" style="margin-top:12px">Named contact + next step in CRM within 24 hours of each conversation.
+    Day-30 review: which targets advanced, which stalled, what to change for NBAA-BACE.</p>
+  </div>
+</section>
+
+<section id="prov">
+  <div class="wrap">
+    <h2><span class="n">10</span>Method &amp; sourcing</h2>
+    <div class="card">
+      <ul class="tight">
+        <li><b>Universe:</b> full verified EAA/goeshow exhibitor feed (1,382 companies, real booths), retrieved 2026-07-01. Saved as <code>OSH_2026_Exhibitor_List_SOURCE.tsv</code> in this folder.</li>
+        <li><b>Screen:</b> every monetizable category reviewed (FBO/airport, insurance, finance, avionics, flight-planning, OEM, engines/props, retail/gear, fuel, media/associations) — not just recognized brands.</li>
+        <li><b>Scoring:</b> the six-dimension weighted rubric (§02) applied identically to 24 finalists.</li>
+        <li><b>Audit:</b> each finalist researched as a company (marketing posture, gaps, leverage) and to a decision-maker, via web/LinkedIn/press.</li>
+        <li><b>Contacts:</b> labeled <span class="verified">Verified</span> (sourced &amp; cited in research notes) or <span class="rolet">role target</span> (confirm pre-show). <b>No names were invented.</b> Where a person's status is in flux (AOPA leadership, Continental CEO through the Arcline close, Textron's departed Rob Scholl) it is flagged.</li>
+        <li><b>Re-verify before use:</b> booth assignments can shift — re-pull the feed the week before; confirm named contacts on LinkedIn at outreach; dates shown are the published EAA AirVenture 2026 window (Jul 20–26).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>GlobalAir.com — Aviation's Homepage Since 1995 · Confidential internal account strategy · v2</span>
+    <span>Location: Operations\09_WORK\10_EVENTS_AND_PARTNERSHIPS\10d_EAA_AirVenture_Oshkosh_2026\ABM_Account_Brief\OSH_2026_Master_Account_Brief_v2.html</span>
+  </div>
+</footer>
+
+</body>
+</html>
